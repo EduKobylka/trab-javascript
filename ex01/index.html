@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Formulário Interativo</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    body {
+      padding: 20px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+    <h2>Formulário Interativo</h2>
+    <form id="myForm">
+      <div class="form-group">
+        <label for="nome">Nome:</label>
+        <input type="text" class="form-control" id="nome" name="nome">
+      </div>
+
+      <div class="form-group">
+        <label for="idade">Idade:</label>
+        <input type="number" class="form-control" id="idade" name="idade">
+      </div>
+
+      <div class="form-group">
+        <label for="genero">Gênero:</label><br>
+        <input type="radio" id="masculino" name="genero" value="masculino">
+        <label for="masculino">Masculino</label><br>
+        <input type="radio" id="feminino" name="genero" value="feminino">
+        <label for="feminino">Feminino</label><br>
+        <input type="radio" id="outro" name="genero" value="outro">
+        <label for="outro">Outro</label>
+      </div>
+
+      <div class="form-group">
+        <label>Preferências:</label><br>
+        <input type="checkbox" id="esporte" name="preferencias" value="esporte">
+        <label for="esporte">Esporte</label><br>
+        <input type="checkbox" id="musica" name="preferencias" value="musica">
+        <label for="musica">Música</label><br>
+        <input type="checkbox" id="viagem" name="preferencias" value="viagem">
+        <label for="viagem">Viagem</label><br>
+        <input type="checkbox" id="leitura" name="preferencias" value="leitura">
+        <label for="leitura">Leitura</label><br>
+        <input type="checkbox" id="cinema" name="preferencias" value="cinema">
+        <label for="cinema">Cinema</label>
+      </div>
+
+      <div class="form-group">
+        <label for="comentario">Comentário:</label>
+        <textarea class="form-control" id="comentario" name="comentario" rows="3"></textarea>
+      </div>
+
+      <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
+  </div>
+
+  <script src="./index.js"></script>
+</body>
+</html>

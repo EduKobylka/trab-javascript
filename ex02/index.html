@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>PetShop X</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    body {
+      padding-top: 56px;
+    }
+
+    ul.ul-servicos {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    ul li {
+      display: flex;
+      align-items: center;
+      margin-bottom: 15px;
+      width: 100%;
+    }
+
+    ul li img {
+      width: 80px;
+      height: 80px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-right: 15px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+  </style>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-primary">
+    <div class="container">
+      <a class="navbar-brand" href="#">PetShop X</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#about">Sobre</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services">Serviços</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#products">Produtos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contato</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section id="about" class="bg-primary text-white text-center py-5">
+    <h2>Sobre Nós</h2>
+    <p>Somos o PetShop X, cuidando do bem-estar do seu pet.</p>
+  </section>
+
+  <section id="services" class="bg-light text-center py-5">
+    <h2>Nossos Serviços</h2>
+    <p>Conheça nossos serviços para manter seu pet saudável:</p>
+    <ul class="ul-servicos">
+      <li>
+        <img src="../imagens/download.jpeg" class="rounded-circle">
+        <span>Banho e tosa</span>
+      </li>
+      <li>
+        <img src="../imagens/download (1).jpeg" class="rounded-circle">
+        <span>Consultas veterinárias</span>
+      </li>
+      <li>
+        <img src="../imagens/images.jpeg" class="rounded-circle">
+        <span>Venda de acessórios</span>
+      </li>
+    </ul>
+  </section>
+
+  <section id="products" class="bg-primary text-white text-center py-5">
+    <h2>Nossos Produtos</h2>
+    <p>Confira nossa seleção de produtos para seu pet:</p>
+    <ul>
+      <li>Rações</li>
+      <li>Brinquedos</li>
+      <li>Camas e casinhas</li>
+    </ul>
+  </section>
+
+  <section id="contact" class="bg-light text-center py-5">
+    <h2>Entre em Contato</h2>
+    <p>Estamos aqui para ajudar você e seu pet.</p>
+  </section>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

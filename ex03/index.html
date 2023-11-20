@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Quiz de Animais</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Quiz de Animais</h1>
+    <div id="question-container" class="question-container">
+      <p id="question">Qual é o maior mamífero terrestre?</p>
+      <div id="options" class="options">
+        <button class="option" onclick="checkAnswer('Elefante')">Elefante</button>
+        <button class="option" onclick="checkAnswer('Leão')">Leão</button>
+        <button class="option" onclick="checkAnswer('Girafa')">Girafa</button>
+        <button class="option" onclick="checkAnswer('Rinoceronte')">Rinoceronte</button>
+      </div>
+    </div>
+    <p id="score">Pontuação: <span id="score-value">0</span></p>
+  </div>
+  <script src="index.js"></script>
+</body>
+
+</html>
