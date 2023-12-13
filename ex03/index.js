@@ -2,6 +2,7 @@ const questions = [
   {
     question: "Qual é o maior mamífero terrestre?",
     answer: "Elefante",
+    options: ["Elefante", "Leão", "Girafa", "Rinoceronte"]
   },
 ];
 
